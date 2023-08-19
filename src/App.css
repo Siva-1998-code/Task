@@ -1,38 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto:wght@300;400;500;700&family=Ubuntu&display=swap');
+
+
+
+
+* {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
 .App {
-  text-align: center;
+  margin: 20px 0px 10px 50px;
+  padding: 1px 10px;
+  font-size: xx-large;
+  background-color: transparent;
+  border: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bio h2 {
+  font-size: 2.7rem;
+  font-weight: 700;
+  padding: 30px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bio p {
+  font-size: 1.5rem;
+  font-weight: 650;
+  padding: 0 0 30px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bio button {
+  padding: 10px 35px;
+  font-size: larger;
+  font-weight: 450;
+  margin: 0 0 20px 0;
+}
+
+.box h1 {
+  color: rgb(255, 255, 255);
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.box {
+  background-color: rgb(84, 84, 84);
+}
+
+#active {
+  background-color: rgb(246, 14, 227);
+  border: none;
+}
+
+.projects {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: max-content;
 }
 
-.App-link {
-  color: #61dafb;
+.projects button {
+  display: block;
+  padding: 10px 35px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 20px 0;
+  border: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#active:hover {
+  background-color: rgb(193, 10, 178);
+}
+
+.cards{
+  background-color: rgb(238, 247, 255);
+  padding: 70px 0;
 }
