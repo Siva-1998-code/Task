@@ -483,10 +483,12 @@ header {
 
 .card:hover {
     box-shadow: 2px 2px 15px orange;
+    transition: 1s;
 }
 
 .card:hover img {
     transform: scale(1.1);
+    transition: 0.8s;
 }
 
 .card:hover a {
@@ -495,6 +497,7 @@ header {
     border-radius: 12px;
     transition: 0.4s;
     border: none;
+    transition: 0.8s;
 }
 
 @media screen and (max-width: 1024px) {
